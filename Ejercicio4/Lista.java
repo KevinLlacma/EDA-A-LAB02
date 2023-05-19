@@ -1,8 +1,7 @@
 import java.util.*;
 public class Lista <String>{
     ArrayList<String> listaA;
-
-    private String var;
+    
     public Lista(String a){
         listaA = new ArrayList<String>();
     }
