@@ -19,5 +19,17 @@ public class Lista {
     public void clear(){
         listaA.clear();
     }
+    public boolean equals(Object obj){
+        return listaA.equals(listaA);
+    }
+    public String get (int index){
+        return listaA.get(index);
+    }
+    public String set (int index, String element){
+        return listaA.set(index,element);
+    }
+    public void add(int index, String element){
+        listaA.add(index,element);
+    }
 
 }
