@@ -7,5 +7,8 @@ public class Lista {
     public boolean add(String element){
         return listaA.add(element);
     }
+    public boolean addAll(Collection<? extends String>collection){
+        return listaA.addAll(listaA);
+    }
     
 }
