@@ -31,5 +31,13 @@ public class Lista {
     public void add(int index, String element){
         listaA.add(index,element);
     }
-
+    public int indexOf(String element){
+        return listaA.indexOf(element);
+    }
+    public int lastIndexOf(String element){
+        return listaA.lastIndexOf(element);
+    }
+    public List<String> subList(int fromIndex, int toIndex){
+        return listaA.subList(fromIndex,toIndex);
+    }
 }
