@@ -1,6 +1,8 @@
 import java.util.*;
-public class Lista {
+public class Lista <String>{
     ArrayList<String> listaA;
+
+    private String var;
     public Lista(String a){
         listaA = new ArrayList<String>();
     }
@@ -40,4 +42,5 @@ public class Lista {
     public List<String> subList(int fromIndex, int toIndex){
         return listaA.subList(fromIndex,toIndex);
     }
+
 }
